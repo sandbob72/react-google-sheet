@@ -57,7 +57,7 @@ function MenuAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            Photos
+            PSU Student
           </Typography>
           {auth && (
             <div>
