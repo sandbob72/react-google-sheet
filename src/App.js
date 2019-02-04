@@ -18,11 +18,12 @@ import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
 
+
 class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         <MenuAppBar />
         <div>
           {/* <DataStudent /> */}
@@ -32,8 +33,9 @@ class App extends Component {
           {/* <FAC_NAME_THAI /> */}
           {/* <StudyLevel /> */}
           {/* <GradYear/> */}
-          <Container>
-            <Row sm="10">
+          <CustomPaginationActionsTable />
+          {/* <Container>
+            <Row sm="10"> */}
             <Card>
             <a href="/"><Button outline color="danger">Home</Button></a><br></br>
             <a href="/DataStudentInEachProvince"><Button outline color="danger">จำนวนนักศึกษาแต่ละจังหวัด</Button></a><br></br>
@@ -44,8 +46,8 @@ class App extends Component {
             <a href="/StillStudent"><Button outline color="danger">จำนวนนักศึกษาที่กำลังศึกษาอยู่</Button></a><br></br>
             <a href="/StudyLevel"><Button outline color="danger">จำนวนนักศึกษาระดับปริญญา</Button></a><br></br>
             </Card>
-            </Row><br></br>
-          </Container>
+            {/* </Row><br></br>
+          </Container> */}
 
       </div>
         {/* <SimpleTable /> */ }
