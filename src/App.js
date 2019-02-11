@@ -17,6 +17,7 @@ import GradYear from './GradYear'
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
+import PersistentDrawerLeft from './PersistentDrawerLeft'
 
 
 class App extends Component {
@@ -24,7 +25,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MenuAppBar />
+        {/* <MenuAppBar /> */}
+        <PersistentDrawerLeft />
         <div>
           {/* <DataStudent /> */}
           {/* <DataStudentInEachProvince /> */}
@@ -37,14 +39,14 @@ class App extends Component {
           {/* <Container>
             <Row sm="10"> */}
             {/* <Card> */}
-            <a href="/"><Button outline color="danger">Home</Button></a><br></br>
+            {/* <a href="/"><Button outline color="danger">Home</Button></a><br></br>
             <a href="/DataStudentInEachProvince"><Button outline color="danger">จำนวนนักศึกษาแต่ละจังหวัด</Button></a><br></br>
             <a href="/DataStudent"><Button outline color="danger">สถานะนักศึกษา</Button></a><br></br>
             <a href="/EntMethodDesc"><Button outline color="danger">โครงการรับสมัครนักศึกษาใหม่</Button></a><br></br>
             <a href="/FacName"><Button outline color="danger">จำนวนนักศึกษาแต่ละะคณะ</Button></a><br></br>
             <a href="/GradYear"><Button outline color="danger">จำนวนนักศึกษาสำเร็จการศึกษาแต่ละปี</Button></a><br></br>
             <a href="/StillStudent"><Button outline color="danger">จำนวนนักศึกษาที่กำลังศึกษาอยู่</Button></a><br></br>
-            <a href="/StudyLevel"><Button outline color="danger">จำนวนนักศึกษาระดับปริญญา</Button></a><br></br>
+            <a href="/StudyLevel"><Button outline color="danger">จำนวนนักศึกษาระดับปริญญา</Button></a><br></br> */}
             {/* </Card> */}
             {/* </Row><br></br>
           </Container> */}
