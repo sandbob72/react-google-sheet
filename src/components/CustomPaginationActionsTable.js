@@ -102,8 +102,9 @@ function createData(name, calories, fat) {
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    width: '50%',
     marginTop: theme.spacing.unit * 3,
+
   },
   table: {
     minWidth: 500,

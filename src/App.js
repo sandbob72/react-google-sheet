@@ -33,10 +33,10 @@ class App extends Component {
           {/* <FAC_NAME_THAI /> */}
           {/* <StudyLevel /> */}
           {/* <GradYear/> */}
-          <CustomPaginationActionsTable />
+          {/* <CustomPaginationActionsTable /> */}
           {/* <Container>
             <Row sm="10"> */}
-            <Card>
+            {/* <Card> */}
             <a href="/"><Button outline color="danger">Home</Button></a><br></br>
             <a href="/DataStudentInEachProvince"><Button outline color="danger">จำนวนนักศึกษาแต่ละจังหวัด</Button></a><br></br>
             <a href="/DataStudent"><Button outline color="danger">สถานะนักศึกษา</Button></a><br></br>
@@ -45,7 +45,7 @@ class App extends Component {
             <a href="/GradYear"><Button outline color="danger">จำนวนนักศึกษาสำเร็จการศึกษาแต่ละปี</Button></a><br></br>
             <a href="/StillStudent"><Button outline color="danger">จำนวนนักศึกษาที่กำลังศึกษาอยู่</Button></a><br></br>
             <a href="/StudyLevel"><Button outline color="danger">จำนวนนักศึกษาระดับปริญญา</Button></a><br></br>
-            </Card>
+            {/* </Card> */}
             {/* </Row><br></br>
           </Container> */}
 
