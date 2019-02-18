@@ -19,6 +19,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import { Button } from 'reactstrap';
+import b71 from './b71.jpg'
 
 const drawerWidth = 240;
 
@@ -159,17 +160,8 @@ class PersistentDrawerLeft extends React.Component {
                 >
                     <div className={classes.drawerHeader} />
                     <Typography paragraph>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent
-                        elementum facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in
-                        hendrerit gravida rutrum quisque non tellus. Convallis convallis tellus id interdum
-                        velit laoreet id donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing.
-                        Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Cursus euismod quis
-                        viverra nibh cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo.
-                        Mauris commodo quis imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus
-                        at augue. At augue eget arcu dictum varius duis at consectetur lorem. Velit sed
-                        ullamcorper morbi tincidunt. Lorem donec massa sapien faucibus et molestie ac.
-          </Typography>
+                    <img src="b71"/>
+                    </Typography>
                     <Typography paragraph>
                         <a href="/"><Button outline color="danger">Home</Button></a><br></br>
                         <a href="/DataStudentInEachProvince"><Button outline color="danger">จำนวนนักศึกษาแต่ละจังหวัด</Button></a><br></br>
